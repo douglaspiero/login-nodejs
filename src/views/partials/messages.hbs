@@ -1,0 +1,17 @@
+{{#if success_msg}}
+       <div class="errors align-text-bottom">								
+           <i class="text-success ico" data-feather="check"></i>	
+                {{success_msg}}
+           <br>
+       </div>
+
+{{/if}}
+
+{{#if errors_msg}}
+        <div class="errors align-text-bottom">								
+            <i class="text-danger ico" data-feather="alert-circle"></i>	
+                {{errors_msg}}
+            <br>
+        </div>
+
+{{/if}}

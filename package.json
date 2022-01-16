@@ -1,0 +1,34 @@
+{
+  "name": "login-nodejs",
+  "version": "1.0.0",
+  "description": "Sistema de Login",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^12.0.1",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "helpers": "0.0.6",
+    "mongoose": "^6.1.6",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglaspiero/login-nodejs.git"
+  },
+  "author": "Douglas Piero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglaspiero/login-nodejs/issues"
+  },
+  "homepage": "https://github.com/douglaspiero/login-nodejs#readme"
+}

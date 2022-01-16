@@ -1,0 +1,16 @@
+{{#if error}}
+     <div class="errors align-text-bottom">								
+            <i class="text-danger ico" data-feather="alert-circle"></i>	
+                {{error}}
+            <br>
+    </div>
+{{/if}}
+
+
+{{#each errors}}
+        <div class="errors align-text-bottom">								
+            <i class="text-danger ico" data-feather="alert-circle"></i>	
+                {{text}}
+            <br>
+        </div>
+{{/each}}

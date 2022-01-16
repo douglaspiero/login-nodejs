@@ -1,0 +1,54 @@
+.errors {
+    font-size: 12px;
+}
+
+.ico {
+    width: 15px;
+  height: 15px;
+}
+
+.logo{
+  border-radius: 5%;
+}
+
+body {
+  background-color: #FBFBFB;
+}
+
+.botao {
+  color: #ffffff;
+  border-top-color: #a0348a;
+	border-right-color: #a0348a;
+	border-bottom-color: #a0348a;
+	border-left-color: #a0348a;
+  background-color: #a0348a;
+}
+
+.botao:hover{
+	color: #2e2727;
+	background-color: #ad4599;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+  color: #a0348a;
+}
+a:hover {
+	text-decoration: none;
+	color: #611952;
+}
+a:active {
+	text-decoration: none
+}
+
+.botao_logout {
+  color: #e9ecec;
+  border-top-color: #23b5c2;
+	border-right-color: #25BAC8;
+	border-bottom-color: #25BAC8;
+	border-left-color: #25BAC8;
+}
+
+.botao_logout:hover{
+	background-color: #a0348a;
+}
