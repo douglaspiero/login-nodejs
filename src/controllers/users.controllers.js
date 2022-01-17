@@ -28,7 +28,7 @@ userCtrl.signup = async (req, res) => {
     }else{
         const emailUser = await User.findOne({email: email});
         if(emailUser) {
-            req.flash('errors_msg', 'The email is already in use. Choose another email and try again');
+            errors.push({text: 'The email is already in use. Choose another email and try again'});
             res.render('users/signup', {errors});
         }else{
             const newUSer = new User({name, email, password});
