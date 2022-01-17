@@ -69,7 +69,7 @@ app.get('*', function(req, res){
 
 app.listen(port, (err) => {
     if(!err){
-     console.log(`Server running on: http://${host}/` + port);   
+     console.log(`Server running on: http://localhost:` + port);   
     }else {
      console.log("Server did not start, error: " + err);   
     }    
